@@ -23,7 +23,7 @@ jobs:
           actions_subcommand: 'readme'
           github_token: '${{ secrets.GITHUB }}'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CLOUDDROVE_GITHUB_TOKEN }}
 
 
       - name: 'pre-commit check errors'
