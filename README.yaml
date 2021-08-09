@@ -36,7 +36,7 @@ usage : |-
   Here is an example of how you can use this module in your inventory structure:
   ```hcl
       module "ssh-key" {
-        source          = "clouddrove/labels/digitalocean"
+        source          = "terraform-do-modules/labels/digitalocean"
         version         = "0.15.0"
         key_path        = "~/.ssh/id_rsa.pub"
         key_name        = "devops"
