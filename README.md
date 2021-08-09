@@ -12,7 +12,7 @@
 <p align="center">
 
 <a href="https://www.terraform.io">
-  <img src="https://img.shields.io/badge/Terraform-v0.13-green" alt="Terraform">
+  <img src="https://img.shields.io/badge/Terraform-v0.15-green" alt="Terraform">
 </a>
 <a href="LICENSE.md">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="Licence">
@@ -58,7 +58,7 @@ Here is an example of how you can use this module in your inventory structure:
 ```hcl
     module "ssh-key" {
       source          = "clouddrove/ssh-key/digitalocean"
-      version         = "0.13.0"
+      version         = "0.15.0"
       key             = "~/.ssh/id_rsa.pub"
       key_name        = "devops"
       enable_ssh_key  = true
