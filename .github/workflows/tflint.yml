@@ -1,8 +1,9 @@
 name: tf-lint
 on:
   push:
-    branches: [ master ]
+    branches: [ master, main ]
   pull_request:
+    types: [opened, reopened]
   workflow_dispatch:
 jobs:
   tf-lint:

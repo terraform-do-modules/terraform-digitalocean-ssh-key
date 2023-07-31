@@ -2,6 +2,7 @@ name: tfsec
 permissions: write-all
 on:
   pull_request:
+    types: [opened, reopened]
   workflow_dispatch:
 jobs:
   tfsec:
