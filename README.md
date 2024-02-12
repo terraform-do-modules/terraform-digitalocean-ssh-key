@@ -49,7 +49,6 @@ This module has a few dependencies:
 
 
 
-
 **IMPORTANT:** Since the `master` branch used in `source` varies based on new modifications, we suggest that you use the release versions [here](https://github.com/clouddrove/terraform-digitalocean-ssh-key/releases).
 
 
@@ -57,12 +56,12 @@ This module has a few dependencies:
 Here is an example of how you can use this module in your inventory structure:
 ```hcl
     module "ssh-key" {
-      source          = "clouddrove/ssh-key/digitalocean"
+      source          = "terraform-do-modules/labels/digitalocean"
       version         = "0.15.0"
-      key             = "~/.ssh/id_rsa.pub"
+      key_path        = "~/.ssh/id_rsa.pub"
       key_name        = "devops"
       enable_ssh_key  = true
-    }
+   }
 ```
 
 
