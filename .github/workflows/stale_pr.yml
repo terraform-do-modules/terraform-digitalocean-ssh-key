@@ -3,7 +3,7 @@ name: 'Mark or close stale issues and PRs'
 on: 
   schedule:
     - cron: '0 0 * * 5'   # Runs every Friday midnight
-  worklow_dispatch:
+  workflow_dispatch:
 
 jobs:
   call-shared-stale:
