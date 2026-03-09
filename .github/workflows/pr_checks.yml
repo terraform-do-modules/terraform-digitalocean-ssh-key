@@ -6,7 +6,6 @@ on:
       - edited
       - synchronize
       - reopened
-
 jobs:
   pr-validation:
     if: github.actor != 'dependabot[bot]'
