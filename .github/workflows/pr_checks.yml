@@ -6,10 +6,11 @@ on:
       - edited
       - synchronize
       - reopened
+
 jobs:
   pr-validation:
     if: github.actor != 'dependabot[bot]'
-    uses: clouddrove/github-shared-workflows/.github/workflows/pr_checks.yml@2.1.0
+    uses: clouddrove/github-shared-workflows/.github/workflows/pr_checks.yml@master
     secrets: inherit
     with:
       subjectPattern: '^.+$'
