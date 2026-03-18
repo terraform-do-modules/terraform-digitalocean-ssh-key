@@ -9,5 +9,5 @@ permissions:
 
 jobs:
   gitleaks:
-    uses: clouddrove/github-shared-workflows/.github/workflows/gitleaks-pr-scan.yml@2.1.0
+    uses: clouddrove/github-shared-workflows/.github/workflows/gitleaks-pr-scan.yml@2.1.1
     secrets: inherit
