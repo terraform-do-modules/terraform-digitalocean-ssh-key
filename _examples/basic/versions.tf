@@ -1,7 +1,7 @@
 # Terraform version
 # Compatible with OpenTofu >= 1.6.0 (https://opentofu.org)
 terraform {
-  required_version = ">= 2.70.0"
+  required_version = ">= 1.10.0"
   required_providers {
     digitalocean = {
       source  = "digitalocean/digitalocean"
