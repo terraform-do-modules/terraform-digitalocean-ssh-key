@@ -10,8 +10,6 @@ permissions:
 
 jobs:
   release-changelog:
-    needs: check-tag
-    if: needs.check-tag.outputs.valid == 'true'
     runs-on: ubuntu-latest
 
     steps:
