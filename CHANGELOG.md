@@ -1,3 +1,17 @@
+## [v1.0.4] - 2026-03-20
+### :sparkles: New Features
+- [`42a1c4f`](https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key/commit/42a1c4f26938e4df41fd15bf42724b485c4d6d9a) - update github shared workflows version *(commit by [@anket-cd](https://github.com/anket-cd))*
+- [`a49c4be`](https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key/commit/a49c4becd2169fffe02fada8c64d61297c2ad3b8) - test new updated version *(PR [#39](https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key/pull/39) by [@anket-cd](https://github.com/anket-cd))*
+
+### :bug: Bug Fixes
+- [`47688fc`](https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key/commit/47688fc479a3f7d126a2f9c6ccbdbb51644364ee) - revome version validation from relesae changelog workflows *(commit by [@anket-cd](https://github.com/anket-cd))*
+- [`6c1acda`](https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key/commit/6c1acdac012c485d965ecce54a6e2f858707430f) - remove job validation *(commit by [@anket-cd](https://github.com/anket-cd))*
+
+### :wrench: Chores
+- [`ae4d60d`](https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key/commit/ae4d60d5f89a85e68645f03f436e9abc749a3e3f) - bump DigitalOcean provider to >= 2.79.0 *(PR [#40](https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key/pull/40) by [@clouddrove-ci](https://github.com/clouddrove-ci))*
+- [`e946f26`](https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key/commit/e946f264286244b6faa931cdaa9ede5d07abffe1) - **ci**: update gitHub shared workflows to latest version and add release changelog workflows *(PR [#44](https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key/pull/44) by [@anket-cd](https://github.com/anket-cd))*
+
+
 ## [1.0.3] - 2026-02-25
 
 ### 📚 Documentation
@@ -53,3 +67,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ⬆️ Dependencies
 - Updated Terraform version requirement to >= 1.5.4
+[v1.0.4]: https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key/compare/v1.0.3...v1.0.4
