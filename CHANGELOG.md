@@ -1,3 +1,9 @@
+## [v1.0.6] - 2026-03-25
+### :wrench: Chores
+- [`dc1475b`](https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key/commit/dc1475b09fb0c10baf237a3125c8d78f921cf7b6) - **deps**: bump terraform-linters/setup-tflint from 4 to 6 *(commit by [@dependabot[bot]](https://github.com/apps/dependabot))*
+- [`4cc78f0`](https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key/commit/4cc78f0f900681af1d44349c9f10127ee77230bc) - **deps**: bump hashicorp/setup-terraform from 3 to 4 *(commit by [@dependabot[bot]](https://github.com/apps/dependabot))*
+
+
 ## [v1.0.4] - 2026-03-20
 ### :sparkles: New Features
 - [`42a1c4f`](https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key/commit/42a1c4f26938e4df41fd15bf42724b485c4d6d9a) - update github shared workflows version *(commit by [@anket-cd](https://github.com/anket-cd))*
@@ -68,3 +74,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### ⬆️ Dependencies
 - Updated Terraform version requirement to >= 1.5.4
 [v1.0.4]: https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key/compare/v1.0.3...v1.0.4
+[v1.0.6]: https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key/compare/v1.0.5...v1.0.6
