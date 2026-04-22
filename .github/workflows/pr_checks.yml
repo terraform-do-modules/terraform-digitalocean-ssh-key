@@ -1,4 +1,5 @@
 name: PR Validation
+
 on:
   pull_request:
     types:
