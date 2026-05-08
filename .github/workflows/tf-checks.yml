@@ -6,18 +6,18 @@ on:
 
 jobs:
   basic-example:
-    uses: clouddrove/github-shared-workflows/.github/workflows/stf-checks.yml@v2
+    uses: clouddrove/github-shared-workflows/.github/workflows/stf-checks.yml@v2.1.3
     with:
       working_directory: './_examples/basic/'
       provider: none
 
   complete-example:
-    uses: clouddrove/github-shared-workflows/.github/workflows/stf-checks.yml@v2
+    uses: clouddrove/github-shared-workflows/.github/workflows/stf-checks.yml@v2.1.3
     with:
       working_directory: './_examples/complete/'
       provider: none
 
   tf-lint:
-    uses: clouddrove/github-shared-workflows/.github/workflows/tf-lint.yml@2.1.3
+    uses: clouddrove/github-shared-workflows/.github/workflows/tf-lint.yml@v2.1.3
     secrets:
       GITHUB: ${{ secrets.GITHUB }}
