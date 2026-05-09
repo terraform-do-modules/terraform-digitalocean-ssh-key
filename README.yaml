@@ -40,6 +40,7 @@ usage : |-
         version         = "0.15.0"
         key_path        = "~/.ssh/id_rsa.pub"
         key_name        = "devops"
+        tags            = ["devops", "prod"]
         enable_ssh_key  = true
      }
   ```

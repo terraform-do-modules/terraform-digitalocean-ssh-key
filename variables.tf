@@ -24,3 +24,9 @@ variable "ssh_key" {
   default     = ""
   description = "SSH public key content (e.g. `ssh-rsa AAAAB3NzaC1yc2E...`). If not provided, key_path will be used."
 }
+
+variable "tags" {
+  type        = list(string)
+  default     = []
+  description = "A list of tags to apply to the SSH key in DigitalOcean."
+}
