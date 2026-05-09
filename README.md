@@ -38,6 +38,27 @@
 </p>
 <hr>
 
+<!-- BEGIN_TF_DOCS -->
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| enable_ssh_key | A boolean flag to enable/disable ssh key. | `bool` | `true` | no |
+| key_name | Name  (e.g. `it-admin` or `devops`). | `string` | `""` | no |
+| key_path | Path to the SSH public key file on disk (e.g. `~/.ssh/id_rsa.pub`). | `string` | `""` | no |
+| ssh_key | SSH public key content (e.g. `ssh-rsa AAAAB3NzaC1yc2E...`). If not provided, key_path will be used. | `string` | `""` | no |
+| tags | A list of tags to apply to the SSH key in DigitalOcean. | `list(string)` | `[]` | no |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| fingerprint | The fingerprint of the SSH key. |
+| id | The unique ID of the key. |
+| name | The name of the SSH key. |
+| public_key | The text of the public key. |
+<!-- END_TF_DOCS -->
+
 
 
 
