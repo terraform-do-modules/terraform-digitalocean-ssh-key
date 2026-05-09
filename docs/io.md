@@ -6,7 +6,7 @@
 | key\_name | Name  (e.g. `it-admin` or `devops`). | `string` | `""` | no |
 | key\_path | Name  (e.g. `~/.ssh/id_rsa.pub` or `ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD3F6tyPEFEzV0LX3X8BsXdMsQ`). | `string` | `""` | no |
 | ssh\_key | SSH key | `string` | `"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2Nv42WHrrdN3dugCAmoVrnNBlqXhRNo1bqsKGgqM/3VfzNzJ7W5eSZdFGsNhGx2WgSaBldcxokpPihGBrBgk8OzmPiWD3X+MGDwQUTdLkRrRPYKKs7i+ZKn5t+1KiBubLxK1hL3q4wgsrth9lepC7mSZwFk3FzHkXfwRswQ5fqFSaHS0G+JwK6Glf1ZKOoogQEPGa3YYUChfAGhjXb8KxtoKqYwfSny2VYEUBK16AfAHDljpkopmF5HYlTC0Z1PfGsZ1EhtCoi7+bEAUzrAby/yLICyEbuQxtasL9llSk+kohalxEeg7fobjybzLNdseXy/JM0wSHqmdM3DF894Od demo@clouddrove"` | no |
-| tags | A list of tags to apply to the SSH key in DigitalOcean. | `list(string)` | `[]` | no |
+| tags | List of tags to apply to the SSH key resource. | `list(string)` | `[]` | no |
 
 ## Outputs
 

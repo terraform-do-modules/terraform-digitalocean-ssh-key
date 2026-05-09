@@ -28,5 +28,5 @@ variable "ssh_key" {
 variable "tags" {
   type        = list(string)
   default     = []
-  description = "A list of tags to apply to the SSH key in DigitalOcean."
+  description = "List of tags to apply to the SSH key resource."
 }

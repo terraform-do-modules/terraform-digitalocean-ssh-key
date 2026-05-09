@@ -47,7 +47,7 @@
 | key_name | Name  (e.g. `it-admin` or `devops`). | `string` | `""` | no |
 | key_path | Path to the SSH public key file on disk (e.g. `~/.ssh/id_rsa.pub`). | `string` | `""` | no |
 | ssh_key | SSH public key content (e.g. `ssh-rsa AAAAB3NzaC1yc2E...`). If not provided, key_path will be used. | `string` | `""` | no |
-| tags | A list of tags to apply to the SSH key in DigitalOcean. | `list(string)` | `[]` | no |
+| tags | List of tags to apply to the SSH key resource. | `list(string)` | `[]` | no |
 
 ## Outputs
 
